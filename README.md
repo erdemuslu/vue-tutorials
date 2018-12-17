@@ -1,2 +1,1 @@
-# vue-tutorial
-Vue lessons
+# vue-tutorials

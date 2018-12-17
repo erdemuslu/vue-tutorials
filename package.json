@@ -1,0 +1,40 @@
+{
+  "name": "vue-tutorial",
+  "version": "1.0.0",
+  "description": "Vue lessons",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html -d build --port 5000",
+    "watch": "parcel watch index.html -d build",
+    "build": "parcel build index.html -d build --no-cache --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdemuslu/vue-tutorial.git"
+  },
+  "keywords": [
+    "vue",
+    "lessons"
+  ],
+  "author": "Erdem Uslu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdemuslu/vue-tutorial/issues"
+  },
+  "homepage": "https://github.com/erdemuslu/vue-tutorial#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.10.3",
+    "vue": "^2.5.21",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.3.1",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
