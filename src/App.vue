@@ -1,6 +1,6 @@
 <template>
   <div>
-    Vue lessons
+    Vuex lessons
   </div>
 </template>
 
